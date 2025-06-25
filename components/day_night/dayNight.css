@@ -1,0 +1,89 @@
+:root {
+    --color-browm:  #5B4A58;
+    --color-green:  #6AAE55;
+    --color-white:  #FFFFFF;
+    --color-olive:  #F0F0F0;
+    --color-grey-txt:  #828282;
+    --color-browm-background:  #3b2631;
+}
+
+.checkbox-day-night {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    background-color: var(--color-green);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.checkbox-day-night input {
+    display: none;
+}
+
+.checkbox-day-night::before {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #c5f0b7;
+    box-shadow: 0 3px 10px var(--color-browm);
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.checkbox-day-night:has(input:checked) {
+    box-shadow: inset 0 0 10px 1px var(--color-browm-background);
+    background-color:  var(--color-browm);
+}
+
+.checkbox-day-night:has(input:checked)::before {
+    left: calc(100% - 20px);
+    background-color: var(--color-grey-txt);
+}
+
+body:has(input[name="checkbox-switch"]:checked)  {
+    background-color: var(--color-browm-background);
+    color: var(--color-olive);
+}
+body:has(input[name="checkbox-switch"]:checked) 
+.advantages-conpany-block-img-1, .advantages-conpany-block-img-2,
+.advantages-conpany-block-img-3, .advantages-conpany-block-img-4,
+body:has(input[name="checkbox-switch"]:checked) .banner-nav-logo, .banner-nav-arrow,
+.banner-nav-user-img {
+    filter: drop-shadow(1px 0 0 var(--color-olive));
+}
+body:has(input[name="checkbox-switch"]:checked) .background-color-browm,
+body:has(input[name="checkbox-switch"]:checked) .background-color-grey,
+body:has(input[name="checkbox-switch"]:checked) .contacts-address,
+body:has(input[name="checkbox-switch"]:checked) .contacts-feedback {
+    background-color: #2a2229;
+    color: var(--color-olive);
+}
+body:has(input[name="checkbox-switch"]:checked) .product-block-sort,
+body:has(input[name="checkbox-switch"]:checked) .product-block-cart-item,
+body:has(input[name="checkbox-switch"]:checked) .product-search,
+body:has(input[name="checkbox-switch"]:checked) .header-background-color,
+body:has(input[name="checkbox-switch"]:checked) .background-color-olive,
+body:has(input[name="checkbox-switch"]:checked) .background-color-browm-footer {
+    background-color: var(--color-browm-background);
+    color: var(--color-white);
+}
+body:has(input[name="checkbox-switch"]:checked) .order-step-img  {
+    color: var(--color-browm-background);
+}
+body:has(input[name="checkbox-switch"]:checked) .order-step-1,
+body:has(input[name="checkbox-switch"]:checked) .foto-tail-txt {
+    text-shadow: 1px 1px 4px var(--color-browm-background);
+}
+
+body:has(input[name="checkbox-switch"]:checked) .banner-carousel-img {
+    filter: opacity(15%);
+}
+@media screen and (max-width: 350px) {
+    .checkbox-day-night {
+    width: 45px;
+    height: 25px;
+    }
+}

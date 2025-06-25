@@ -1,0 +1,33 @@
+@import "./css/header.css";
+@import "./css/style.css";
+@import "./css/footer.css";
+@import "./pages/error/error.css";
+
+/* Стили по блокам */
+@import "./components/call_back/callBack.css";
+@import "./components/carousel/carousel.css";
+@import "./components/day_night/dayNight.css";
+@import "./components/product_main/productMain.css";
+@import "./components/product_main/search.css";
+
+/* Стили по страницам */
+@import "./pages/contacts/contacts.css";
+@import "./pages/catalog/catalog.css";
+
+
+@font-face {
+    font-family: 'Literal-Regular';
+    src: local("Literal-Regular"), url("../fonts/Literal-Regular.otf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Literal-Bold';
+    src: local("Literal-Bold"), url("../fonts//Literal-Bold.otf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Karton-Regular';
+    src: local("Karton-Regular"), url("../fonts/Karton-Regular.ttf") format("truetype");
+    font-display: swap;
+}

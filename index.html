@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Цветочная Лавка</title>
+</head>
+<body>
+    
+    <header class="wrapper header-background-color">
+        <div class="container header-content">
+            <div class="header-icon-txt-map ">
+                <img class="header-icon" src="./img/icon/place.png" alt="place">
+                <p class="header-txt"><b>г. Владивосток,</b>  ул. Пушкинская, 17 А</p>
+            </div>
+            <div class="header-icon-txt">
+                <img class="header-icon" src="./img/icon/phone.png" alt="phone">
+                <div class="header-txt">
+                    <p class="header-txt-phone">WhatsApp</p>
+                    <div>
+                        <a class="header-phone" href="https://wa.me/78083535335" target="_blank">+ 7 808 353 53 35</a>&emsp;
+                        <a class="header-phone-2" href="https://wa.me/78888888888" target="_blank">+ 7 888 888 88 88</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="header-icon-txt">
+                <img class="header-icon" src="./img/icon/bag.png" alt="bag">
+                <p class="header-txt">150 000 руб.</p>
+            </div>
+            <label class="checkbox-day-night">
+                <input  type="checkbox" name="checkbox-switch" id="">
+            </label>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        <div class="container banner-main">
+            <nav class="banner-nav">
+                <div class="banner-nav-menu">
+                    <input class="banner-nav-menu-inpt" type="checkbox" id="menu-inpt" />
+                        <label class="banner-nav-menu-icon" for="menu-inpt">
+                            <span class="navicon"></span>
+                            <p class="banner-nav-menu-txt">МЕНЮ</p>
+                        </label> 
+                        <ul class="banner-nav-menu-ul" >
+                          <li><a class="banner-nav-menu-li" href="./index.html">Главная</a></li>
+                          <li><a class="banner-nav-menu-li" href="./pages/catalog/catalog.html">Каталог</a></li>
+                          <li><a class="banner-nav-menu-li" href="#">Фотогалерея</a></li>
+                          <li><a class="banner-nav-menu-li" href="#">Акции</a></li>
+                          <li><a class="banner-nav-menu-li" href="#">О компании</a></li>
+                          <li><a class="banner-nav-menu-li" href="#">Проекты</a></li>
+                          <li><a class="banner-nav-menu-li" href="./pages/contacts/contacts.html">Контакты</a></li>
+                      </ul>
+                </div>
+                <ul class="banner-nav-ul-1">
+                    <li><a href="./pages/catalog/catalog.html">Каталог</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="./pages/contacts/contacts.html">Контакты</a></li>
+                </ul>
+                <a href="./pages/error/error.html"><img class="banner-nav-logo" src="./img/logo.png" alt="logo"></a>
+                <ul class="banner-nav-ul-2">
+                    <li><a href="" class="banner-nav-info-client">
+                        <p>Информация для клиента</p>
+                        <img class="banner-nav-arrow" src="./img/icon/arrow_daown.png" alt="arrow_daown"></a>
+                    </li>
+                    <li><a href="" class="banner-nav-user">
+                        <img class="banner-nav-user-img" src="./img/icon/userpick.png" alt="user">
+                        <p>Мои заказы</p></a>
+                    </li>
+                    <li class="banner-nav-money-exchange">
+                        <p class="banner-nav-money active">Руб.</p>
+                        <p class="banner-nav-money">Дол.</p>
+                    </li>
+                </ul>
+            </nav>
+            <div class="banner-info">
+                <div class="banner-info-txt">
+                    <p class="banner-info-txt-p"><b>Доставка</b> цветов в городе </p>
+                    <h1 class="banner-info-txt-h1">Владивосток</h1>
+                </div>
+                <a href="./pages/catalog/catalog.html"><button class="banner-info-btn">Каталог</button></a>
+
+                <div class="banner-carousel-dots">
+                    <button class="first active"></button>
+                    <button class="second "></button>
+                    <button class="third "></button>
+                    <button class="fourth "></button>
+                    <button class="fifth "></button>
+                    <button class="sexth "></button>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">   
+            <div class="banner-carousel">
+                <div class="banner-carousel-block">
+                    <div class="banner-carousel-img">
+                        <div class="banner-carousel-img-item">
+                            <img class="item" src="../../img/banner/banner_1.png" alt="">
+                        </div>
+                        <div class="banner-carousel-img-item">
+                            <img class="item" src="../../img/banner/banner_2.png" alt="">
+                        </div>
+                        <div class="banner-carousel-img-item">
+                            <img class="item" src="../../img/banner/banner_3.png" alt="">
+                        </div>
+                        <div class="banner-carousel-img-item">
+                            <img class="item" src="../../img/banner/banner_4.png" alt="">
+                        </div>
+                        <div class="banner-carousel-img-item">
+                            <img class="item" src="../../img/banner/banner_5.png" alt="">
+                        </div>
+                        <div class="banner-carousel-img-item">
+                            <img class="item" src="../../img/banner/banner_6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="advantages-block">
+                <div class="advantages-conpany">
+                    <div class="advantages-conpany-block">
+                        <div class="advantages-conpany-block-img-1"> </div>
+                        <div class="advantages-conpany-block-txt"><b>Бесплатная</b> доставка по городу</div>
+                    </div>
+                    <div class="advantages-conpany-block">
+                        <div class="advantages-conpany-block-img-2"> </div>
+                        <div class="advantages-conpany-block-txt">Открытка <b>в подарок</b> и фото вручения</div>
+                    </div>
+                    <div class="advantages-conpany-block">
+                        <div class="advantages-conpany-block-img-3"> </div>
+                        <div class="advantages-conpany-block-txt"><b>Круглосуточная</b> доставка</div>
+                    </div>
+                    <div class="advantages-conpany-block">
+                        <div class="advantages-conpany-block-img-4"> </div>
+                        <div class="advantages-conpany-block-txt">Накопительная система <b>скидок</b></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="wrapper background-color-grey">
+            <div class="container product">
+                <div class="product-block">
+                    <div class="product-block-sort">
+                        <p class="product-block-title">Сортировать по:</p>
+                        <p class="product-block-txt active-sotr">Новизне</p>
+                        <p class="product-block-txt">Цена по возростанию</p>
+                        <p class="product-block-txt">Цена по убыванию</p>
+                        <p class="product-block-txt">Популярности</p>
+                        <p class="product-block-txt-mobile">Сортирока/фильтр/поиск</p>
+                        <button id="searchOpen" class="product-block-sort-img-mobile"></button>
+                        
+                    </div>
+                    <div class="product-block-cart">
+                        <div class="product-block-cart-item">
+                            <div class="product-block-cart-item-img-1"></div>
+                            <div class="product-block-cart-item-info">
+                                <h3 class="product-block-cart-item-h3">Букет из разноцветных роз</h3>
+                                <div class="product-block-cart-item-txt">
+                                    <p class="product-block-cart-item-cost">Стоимость:</p>
+                                    <p class="product-block-cart-item-price">от 23 000 руб.</p>
+                                </div>
+                                <button class="product-block-cart-item-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="product-block-cart-item">
+                            <div class="product-block-cart-item-new"><p>Новинка</p></div>
+                            <div class="product-block-cart-item-img-2"></div>
+                            <div class="product-block-cart-item-info">
+                                <h3 class="product-block-cart-item-h3">Букет из разноцветных роз</h3>
+                                <div class="product-block-cart-item-txt">
+                                    <p class="product-block-cart-item-cost">Стоимость:</p>
+                                    <p class="product-block-cart-item-sale">23 000 руб.</p>
+                                    <p class="product-block-cart-item-price">от 15 000 руб.</p>
+                                </div>
+                                <button class="product-block-cart-item-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="product-block-cart-item">
+                            <div class="product-block-cart-item-promo"><p>Акция</p></div>
+                            <div class="product-block-cart-item-img-3"></div>
+                            <div class="product-block-cart-item-info">
+                                <h3 class="product-block-cart-item-h3">Букет из разноцветных роз</h3>
+                                <div class="product-block-cart-item-txt">
+                                    <p class="product-block-cart-item-cost">Стоимость:</p>
+                                    <p class="product-block-cart-item-price">от 23 000 руб.</p>
+                                </div>
+                                <button class="product-block-cart-item-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="product-block-cart-item">
+                            <div class="product-block-cart-item-img-4"></div>
+                            <div class="product-block-cart-item-info">
+                                <h3 class="product-block-cart-item-h3">Букет из разноцветных роз</h3>
+                                <div class="product-block-cart-item-txt">
+                                    <p class="product-block-cart-item-cost">Стоимость:</p>
+                                    <p class="product-block-cart-item-price">от 23 000 руб.</p>
+                                </div>
+                                <button class="product-block-cart-item-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="product-block-cart-item">
+                            <div class="product-block-cart-item-img-5"></div>
+                            <div class="product-block-cart-item-info">
+                                <h3 class="product-block-cart-item-h3">Букет из разноцветных роз</h3>
+                                <div class="product-block-cart-item-txt">
+                                    <p class="product-block-cart-item-cost">Стоимость:</p>
+                                    <p class="product-block-cart-item-price">от 23 000 руб.</p>
+                                </div>
+                                <button class="product-block-cart-item-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="product-block-cart-item">
+                            <div class="product-block-cart-item-img-6"></div>
+                            <div class="product-block-cart-item-info">
+                                <h3 class="product-block-cart-item-h3">Букет из разноцветных роз</h3>
+                                <div class="product-block-cart-item-txt">
+                                    <p class="product-block-cart-item-cost">Стоимость:</p>
+                                    <p class="product-block-cart-item-price">от 23 000 руб.</p>
+                                </div>
+                                <button class="product-block-cart-item-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="product-block-cart-item">
+                            <div class="product-block-cart-item-img-7"></div>
+                            <div class="product-block-cart-item-info">
+                                <h3 class="product-block-cart-item-h3">Букет из разноцветных роз</h3>
+                                <div class="product-block-cart-item-txt">
+                                    <p class="product-block-cart-item-cost">Стоимость:</p>
+                                    <p class="product-block-cart-item-price">от 23 000 руб.</p>
+                                </div>
+                                <button class="product-block-cart-item-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="product-block-cart-item">
+                            <div class="product-block-cart-item-img-8"></div>
+                            <div class="product-block-cart-item-info">
+                                <h3 class="product-block-cart-item-h3">Букет из разноцветных роз</h3>
+                                <div class="product-block-cart-item-txt">
+                                    <p class="product-block-cart-item-cost">Стоимость:</p>
+                                    <p class="product-block-cart-item-price">от 23 000 руб.</p>
+                                </div>
+                                <button class="product-block-cart-item-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="product-block-cart-item">
+                            <div class="product-block-cart-item-img-9"></div>
+                            <div class="product-block-cart-item-info">
+                                <h3 class="product-block-cart-item-h3">Букет из разноцветных роз</h3>
+                                <div class="product-block-cart-item-txt">
+                                    <p class="product-block-cart-item-cost">Стоимость:</p>
+                                    <p class="product-block-cart-item-price">от 23 000 руб.</p>
+                                </div>
+                                <button class="product-block-cart-item-btn">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="searchMenu" class="product-search" >
+                    <div class="product-search-block">
+                        <img class="product-search-img" src="./img/icon/serach.png" alt="cearch">
+                        <img id="searchClose" class="product-search-close" src="./img/icon/close.png" alt="close">
+                        <input class="product-search-input" placeholder="Поиск" type="text">
+                        
+                    </div>
+                    <hr/>
+                    <div class="product-search-block">
+                        <fieldset>
+                            <legend class="product-search-checkbox-heder">Стоимость:</legend>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="to2500" name="to2500" />
+                                <label  for="to2500">до 2500 руб.</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="2500to4000" name="2500to4000" />
+                                <label for="2500to4000">2500 - 4000 руб.</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="4000to6000" name="4000to6000"  />
+                                <label for="4000to6000">4000 - 6000 руб.</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="from6000" name="from6000" checked />
+                                <label for="from6000">от 6000 руб.</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <hr/>
+                    <div class="product-search-block">
+                        <fieldset>
+                            <legend class="product-search-checkbox-heder">Букет с ...</legend>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="rose" name="rose" checked/>
+                                <label  for="rose">Розами</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="tulip" name="tulip" />
+                                <label for="tulip">Тюльпанами</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="hydrangea" name="hydrangea"  />
+                                <label for="hydrangea">Гортензиями</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="orchid" name="orchid"  />
+                                <label for="orchid">Орхидеями</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="iris" name="iris" />
+                                <label  for="iris">Ирисами</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="lily" name="lily" />
+                                <label for="lily">Лилиями</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="gerber" name="gerber"  />
+                                <label for="gerber">Герберами</label>
+                            </div>
+                            <legend class="product-search-checkbox-all">Показать еще</legend>
+                        </fieldset>
+                    </div>
+                    <hr/>
+                    <div class="product-search-block">
+                        <fieldset>
+                            <legend class="product-search-checkbox-heder">Цветы упаковано</legend>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="inBouquet" name="inBouquet" checked/>
+                                <label  for="inBouquet">Букетом</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="inBasket" name="inBasket" />
+                                <label for="inBasket">В корзине</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="inBox" name="inBox"  />
+                                <label for="inBox">В коробке</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <hr/>
+                    <div class="product-search-block">
+                        <fieldset>
+                            <legend class="product-search-checkbox-heder">Цветовая гамма</legend>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="white" name="white" checked/>
+                                <label  for="white">Белая</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="pink" name="pink" />
+                                <label for="pink">Розовая</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="red" name="red"  />
+                                <label for="red">Красная</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="yellow" name="yellow"  />
+                                <label for="yellow">Желтая</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="orange" name="orange" />
+                                <label  for="orange">Оранжевая</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="burgundy" name="burgundy" />
+                                <label for="burgundy">Бордовая</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="blue" name="blue"  />
+                                <label for="blue">Синяя</label>
+                            </div>
+                            <div class="product-search-checkbox-block">
+                                <input class="product-search-checkbox" type="checkbox" id="violet" name="violet"  />
+                                <label for="violet">Фиолетовая</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flowers_left"></div>
+        <div class="watercolor_green_left"></div>
+        <div class="watercolor_red_left"></div>
+        
+        <div class="flowers_right"></div>
+        <div class="watercolor_green_right"></div>
+        <div class="watercolor_red_right"></div>
+
+        <div class="container">
+            <div class="order-step">
+                <h2 class="order-step-h2"><b>ЗАКАЗАТЬ</b> В 5 ШАГОВ</h2>
+                <div class="order-step-block">
+                    <div class="order-step-grup">
+                        <p class="order-step-img">1</p>
+                        <div class="order-step-1">
+                            <h3><b>Выберите букет;</b></h3>
+                            <p>В каталоге выберите понравившийся букет;</p>
+                        </div>
+                    </div>
+                    <div class="order-step-grup">
+                        <p class="order-step-img">2</p>
+                        <div class="order-step-1">
+                            <h3><b>Выберите размер и дополнение;</b></h3>
+                            <p>На странице с описанием букета выберите подходящий размер. 
+                                По желанию, добавьте к букету мягкую игрушку, сладости или любой другой подарок;</p>
+                        </div>
+                    </div>
+                    <div class="order-step-grup">
+                        <p class="order-step-img">3</p>
+                        <div class="order-step-1">
+                            <h3><b>Укажите данные для доставки;</b></h3>
+                            <p>Заполните форму доставки и оплатите заказ удобным для вас способом;</p>
+                        </div>
+                    </div>
+                    <div class="order-step-grup">
+                        <p class="order-step-img"><b>4</b></p>
+                        <div class="order-step-1">
+                            <h3><b>Букет готов!</b></h3>
+                            <p>Букет будет собран из свежайших цветов и доставлен получателю 
+                                к указанной дате и времени.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper background-color-grey">
+            <div class="container foto-tail-review">
+                <div class="foto-tail">
+                    <div class="foto-tail-title">
+                        <h2 class="order-step-h2"><b>фото</b>хвасты</h2>
+                        <a href=""><p class="foto-tail-txt">Больше фото</p></a>
+                    </div>
+                    <div class="foto-tail-img">
+                        <img src="./img/background_element/foto_review_1.png" alt="foto">
+                        <img src="./img/background_element/foto_review_2.png" alt="foto">
+                        <img src="./img/background_element/foto_review_3.png" alt="foto">
+                        <img src="./img/background_element/foto_review_4.png" alt="foto">
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="review-title">
+                        <h2 class="order-step-h2">Отзывы</h2>
+                        <p class="review-txt">Смотреть все</p>
+                    </div>
+                    <div class="review-user-1">
+                        <div class="review-user-header">
+                            <h4 class="review-user-name">Анатолий Петров</h4>
+                            <div class="review-user-star">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                        </div>
+                        <p class="review-user-local">20.08.19  22:32  г. Москва</p>
+                        <p class="review-user-message">Огромное спасибо флористам! 
+                            Остались очень довольны оказанными услугами,мастера своего дела! 
+                            Букетик даже неожиданно красивее чем на картинке</p>
+                    </div>
+                    <hr/>
+                    <div class="review-user-2">
+                        <div class="review-user-header">
+                            <h4 class="review-user-name">Анатолий Петров</h4>
+                            <div class="review-user-star">
+                                <input type="radio" id="star-2-5" name="rating" value="5">
+                                <label for="star-2-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-2-4" name="rating" value="4">
+                                <label for="star-2-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-2-3" name="rating" value="3">
+                                <label for="star-2-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-2-2" name="rating" value="2">
+                                <label for="star-2-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-2-1" name="rating" value="1">
+                                <label for="star-2-1" title="Оценка «1»"></label>
+                            </div>
+                        </div>
+                        <p class="review-user-local">20.08.19  22:32  г. Москва</p>
+                        <p class="review-user-message">Огромное спасибо флористам! 
+                            Остались очень довольны оказанными услугами,мастера своего дела! 
+                            Букетик даже неожиданно красивее чем на картинке</p>
+                    </div>
+                    <hr/>
+                    <div class="review-user-3">
+                        <div class="review-user-header">
+                            <h4 class="review-user-name">Анатолий Петров</h4>
+                            <div class="review-user-star">
+                                <input type="radio" id="star-3-5" name="rating" value="5">
+                                <label for="star-3-5" title="Оценка «5»"></label>	
+                                <input type="radio" id="star-3-4" name="rating" value="4">
+                                <label for="star-3-4" title="Оценка «4»"></label>    
+                                <input type="radio" id="star-3-3" name="rating" value="3">
+                                <label for="star-3-3" title="Оценка «3»"></label>  
+                                <input type="radio" id="star-3-2" name="rating" value="2">
+                                <label for="star-3-2" title="Оценка «2»"></label>    
+                                <input type="radio" id="star-3-1" name="rating" value="1">
+                                <label for="star-3-1" title="Оценка «1»"></label>
+                            </div>
+                        </div>
+                        <p class="review-user-local">20.08.19  22:32  г. Москва</p>
+                        <p class="review-user-message">Огромное спасибо флористам! 
+                            Остались очень довольны оказанными услугами,мастера своего дела! 
+                            Букетик даже неожиданно красивее чем на картинке</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper background-color-olive">
+            <div class="container">
+                <p class="down-info-txt">Букеты создаются максимально похожими на фотографию с сайта.
+                    Приведенные примеры букетов являются возможными вариантами составления цветочных композиций, 
+                    так как они изготавливаются вручную флористами, и поэтому возможно незначительное отклонение 
+                    по форме от фотографии на сайте. При этом возможна замена по количеству, ассортименту и 
+                    составу цветов, в зависимости от сезонности, наличия цветов в том или ином регионе и других 
+                    факторов на равноценные им по качеству и стоимости. Это позволит нам выполнить заказ без 
+                    задержек.<br/> По России и странам СНГ доставка букета возможна в день оформления и оплаты заказа. 
+                    По странам дальнего зарубежья доставка возможна через 2—3 рабочих дня после оплаты.<br/> Ближайшая
+                    дата и время доставки будут отображаться на странице оформления заказа с учетом выбранного 
+                    города доставки. Мы рекомендуем оформлять и оплачивать заказы заранее, особенно в праздничный 
+                    период. Более подробную информацию смотрите на страницеrr</p>
+            </div>
+        </div>
+    </main>
+
+    <footer >
+        <div class="wrapper background-color-browm">
+            <div class="container">
+                <nav class="footer-nav">
+                    <ul class="footer-nav-ul">
+                        <li><a href="./pages/catalog/catalog.html">Каталог</a></li>
+                        <li><a href="./pages/catalog/catalog.html">Скидки</a></li>
+                        <li><a href="">Отзывы</a></li>
+                        <li><a href="./pages/contacts/contacts.html">Контакты</a></li>
+                        <li><a href="">Оферта</a></li>
+                        <li ><a href="" class="footer-nav-ul-li-info">
+                            <p>Информация для клиента</p>
+                            <img class="banner-nav-arrow" src="./img/icon/arrow_white.png" alt="arrow_white"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="wrapper background-color-browm-footer">
+            <div class="container">
+                <div class="footer-block">
+                    <div class="footer-block-contact">
+                        <h5 class="footer-block-h5"><b>Контактная информация</b></h5>
+                        <div class="footer-block-contact-txt">
+                            <img src="./img/icon/place.png" alt="map">
+                            <p>г. Владивосток, ул. Пушкинская, 17</p>
+                        </div>
+                        <div class="footer-block-contact-txt">
+                            <img src="./img/icon/phone_w.png" alt="phone">
+                            <p>+ 7 888 888 88 88</p>
+                        </div>
+                        <div class="footer-block-contact-txt">
+                            <img src="./img/icon/phone_w.png" alt="phone">
+                            <p>+ 7 888 888 88 88</p>
+                        </div>
+                        <div class="footer-block-contact-txt">
+                            <img src="./img/icon/time.png" alt="map">
+                            <p>Режим работы: Пн-Сб с 8:00 до 22:00</p>
+                        </div>
+                    </div>
+                    <div class="footer-block-for-user"> 
+                        <h5 class="footer-block-h5"><b>Для посетителей</b></h5>
+                        <a class="footer-block-for-user-txt" href=""><p>Оформление заказа</p></a>
+                        <a class="footer-block-for-user-txt" href=""><p>Вопросы и ответы</p></a>
+                        <a class="footer-block-for-user-txt" href=""><p>Изменение или отмена заказа</p></a>
+                        <a class="footer-block-for-user-txt" href=""><p>Способы доставки и оплаты</p></a>
+                    </div>
+                    <div class="footer-block-call-back">
+                        <h5 class="footer-block-h5"><b>Возникли вопросы? Свяжитесь с нами</b></h5>
+
+                        <form name="contactForm" id="feedbackForm"  method="post">
+                            <div class="footer-block-call-back-contact">
+                                <div class="footer-block-call-back-name">
+                                    <label class="footer-block-call-back-txt" >Ваше имя</label>
+                                    <input class="footer-block-call-back-input" type="text" id="nameCallBack">
+                                    <div class="error" id="nameError"></div>
+                                </div>
+                                <div class="footer-block-call-back-phone">
+                                    <label class="footer-block-call-back-txt" >Моб. номер</label>
+                                    <input class="footer-block-call-back-input" type="text" id="phoneCallBack">
+                                    <div class="error" id="phoneError"></div>
+                                </div>
+                            </div>
+
+                            <textarea name="textarea" id="messageCallBack" required placeholder="Сообщение"></textarea>
+                            <span class="error" id="messageError"></span>
+                            <button class="footer-block-call-back-btn" type="submit" value="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="wrapper background-color-browm-footer">
+            <div class="container">
+                <p class="footer-date">&copy; 2019 Цветочная лавка.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+.error-page {
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    width: 751px;
+}
+
+.error-img {
+    position: relative;
+    background-image: url(/img/pages/error/error.png);
+    width: 751px;
+    height: 374px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.error-img-h3 {
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.error-img-txt {
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.error-img-btn {
+    position: relative;
+    width: 210px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-size: 18px;
+    font-family: 'Literal-Bold';
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 1;
+}
+.error-img-btn:hover {
+    opacity: .8;
+}
+@media screen and (max-width: 1350px) {
+    .error-page {
+     width: 480px;
+    }
+    .error-img {
+        width: 480px;
+        height: 239px
+    }
+}
+@media screen and (max-width: 550px) {
+    .error-page {
+     width: 300px;
+    }
+    .error-img {
+        width: 280px;
+        height: 140px
+    }
+    .error-img-h3 {
+        font-size: 18px;
+    }
+    .error-img-txt {
+        font-size: 14px;
+    }
+    .error-img-btn {
+        width: 180px;
+        height: 45px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .error-page {
+        width: 250px;
+    }
+    .error-img {
+        width: 210px;
+        height: 105px
+    }
+    .error-img-h3 {
+        font-size: 14px;
+    }
+    .error-img-txt {
+        font-size: 12px;
+    }
+}

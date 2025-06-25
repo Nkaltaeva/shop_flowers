@@ -1,0 +1,193 @@
+:root {
+    --color-browm:  #5B4A58;
+    --color-green:  #6AAE55;
+    --color-white:  #FFFFFF;
+    --color-olive:  #F0F0F0;
+    --color-grey-txt:  #828282;
+}
+.contacts {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    width: 1051px;
+}
+.contacts-address {
+    position: relative;
+    width: 263px;
+    height: 404px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: var(--color-white);
+
+}
+.contacts-map {
+    position: relative;
+    width: 825px;
+    height: 404px;
+}
+.contacts-address-group {
+    position: relative;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+.contacts-address-txt {
+    position: relative;
+    opacity: 0.6;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+.contacts-address-title {
+    position: relative;
+    font-size: 14px;
+    font-family: 'Literal-Bold';
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+.contacts-feedback {
+    position: relative;
+    width: 1051px;
+    height: 330px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+}
+
+.contacts-feedback-h3 {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.contacts-feedback-form {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 30px 30px 30px;
+}
+.contacts-feedback-form-input {
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+input[placeholder], [placeholder], *[placeholder] {
+    font-family: 'Literal-Regular';
+    font-size: 14px;
+}
+.contacts-feedback-form-input-div,
+.contacts-textarea-block {
+    position: relative;
+    padding: 12px 0;
+    box-sizing: border-box;
+}
+.contacts-feedback-form-input-txt {
+    position: relative;
+    width: 327px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+    background-color: #E0E0E0;
+    padding: 15px;
+    box-sizing: border-box;
+   color: var(--color-browm);
+}
+.contacts-feedback-form-input-txt:focus, textarea:focus {
+    outline-width: 0;
+}
+.contacts-textarea {
+    position: relative;
+    width: 645px;
+    height: 165px;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+    background-color: #E0E0E0;
+    padding: 15px;
+    box-sizing: border-box;
+    color: var(--color-browm);
+    resize: none;
+}
+.contacts-feedback-form-btn {
+    position: relative;
+    right: 0;
+    width: 222px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-size: 16px;
+    font-family: 'Literal-Regular';
+    cursor: pointer;
+    opacity: 1;
+    float: right;
+    margin-top: 5px;
+}
+.contacts-feedback-form-btn:hover {
+    opacity: 0.8;
+}
+.errorFb {
+    position: absolute;
+    color: rgb(255, 153, 0);
+    font-size: 10px;
+}
+@media screen and (max-width: 1350px) {
+    .contacts, .contacts-feedback {
+        width: 750px;
+    }
+    .contacts-textarea {
+        width: 340px;
+}
+}
+@media screen and (max-width: 800px) {
+    .contacts {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contacts-feedback {
+        width: 100%;
+        height: 520px;
+    }
+    .contacts-feedback-form-btn {
+        width: 100%;
+    }
+    .contacts-address {
+        width: 100%;
+        height: 384px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .contacts-map {
+        position: relative;
+        width: 100%;
+    }
+    .pages-heading {
+        font-size: 20px;
+    }
+    .contacts, .contacts-feedback-form-input {
+        display: block;
+        padding: 0;
+    }
+    .contacts-feedback-form-input-txt,
+    .contacts-textarea {
+        width: 100%;
+    }
+    
+    .contacts-address-txt {
+        font-size: 10px;
+    }
+    .contacts-address-title {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 500px) {
+.contacts-feedback {
+        height: 540px;
+    }
+    .errorFb {
+    font-size: 8px;
+}
+}
+

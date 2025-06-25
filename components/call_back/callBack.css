@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Literal-Regular';
+    src: local("Literal-Regular"), url("../../fonts/Literal-Regular.otf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Literal-Bold';
+    src: local("Literal-Bold"), url("../../fonts//Literal-Bold.otf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Karton-Regular';
+    src: local("Karton-Regular"), url("../../fonts/Karton-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+:root {
+    --color-browm:  #5B4A58;
+    --color-green:  #6AAE55;
+    --color-white:  #FFFFFF;
+    --color-olive:  #F0F0F0;
+    --color-grey-txt:  #828282;
+}
+.footer-block-call-back {
+    position: relative;
+    width: 451px;
+}
+.footer-block-call-back-contact {
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+.footer-block-call-back-txt {
+    position: relative;
+    padding: 5px 0;
+    color: var(--color-white);
+    font-size: 14px;
+}
+.footer-block-call-back-input {
+    position: relative;
+    width: 220px;
+    height: 33px;
+    border-radius: 2px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color: var(--color-browm);
+}
+.footer-block-call-back-input:focus, textarea:focus {
+    outline-width: 0;
+}
+
+.footer-block-call-back-contact div {
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.footer-block-call-back textarea {
+    position: relative;
+    width: 450px;
+    height: 75px;
+    resize: none;
+    border-radius: 2px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color: var(--color-browm);
+}
+.footer-block-call-back-btn {
+    position: relative;
+    width: 222px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-size: 16px;
+    font-family: 'Literal-Bold';
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 1;
+    float: right;
+    margin-top: 5px;
+}
+.footer-block-call-back-btn:hover {
+    opacity: 0.9;
+}
+.footer-date {
+    position: relative;
+    color: var(--color-white);
+    font-size: 16px;
+    opacity: 0.3;
+    text-align: center;
+}
+.error {
+    color: rgb(255, 153, 0);
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1350px) {
+    .footer-block-call-back{
+        width: 251px;
+    }
+    .footer-block-call-back textarea {
+        width: 251px;
+        height: 105px;
+    }
+    .footer-block-call-back-input {
+        width: 120px;
+    }
+    .footer-block-contact, .footer-block-for-user {
+        width: 200px;
+    }
+    .footer-block-h5 {
+        height: 65px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer-block-h5 {
+        font-size: 12px;
+        height: 45px;
+    }
+    .footer-block-contact-txt p,
+    .footer-block-for-user-txt, 
+    .footer-block-call-back-txt,
+    .footer-block-call-back-contact div {
+        font-size: 10px;
+        padding: 0;
+    }
+    .footer-block-call-back textarea {
+       top: 10px;
+        height: 55px;
+    }
+    .footer-block-call-back-btn {
+        width: 150px;
+        height: 30px;
+        border-radius: 3px;
+        top: 10px;
+        font-size: 12px;
+    }
+    .footer-date {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer-nav-ul {
+    font-size: 12px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .footer-block {
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        width: 226px;
+        height: 410px;
+    }
+    .footer-block-contact, .footer-block-for-user,
+    .footer-block-call-back {
+        width: 240px;
+    }
+    .footer-block-h5 {
+        height: 35px;
+        padding: 10px 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .footer-block-contact-txt,
+    .footer-block-for-user-txt{
+        padding-bottom: 5px;
+    }
+    .footer-block-call-back-input {
+        width: 115px;
+        font-size: 12px;
+    }
+    .footer-block-call-back textarea {
+       width: 240px;
+       font-size: 12px;
+    }
+    .error {
+    font-size: 10px;
+}
+}

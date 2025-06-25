@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Literal-Regular';
+    src: local("Literal-Regular"), url("../fonts/Literal-Regular.otf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Literal-Bold';
+    src: local("Literal-Bold"), url("../fonts//Literal-Bold.otf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Karton-Regular';
+    src: local("Karton-Regular"), url("../fonts/Karton-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+:root {
+    --color-browm:  #5B4A58;
+    --color-green:  #6AAE55;
+    --color-white:  #FFFFFF;
+}
+.header-background-color {
+    height: 40px;
+    background-color: var(--color-browm);
+}
+.header-content {
+    position: relative;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+b {
+    color: var(--color-green);
+}
+.header-icon {
+    position: relative;
+    height: 16px;
+    width: auto;
+}
+.header-txt {
+    position: relative;
+    font-size: 14px;
+    color: var(--color-white);
+}
+.header-txt-phone {
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Literal-Bold';
+    font-size: 10px;
+}
+.header-phone, .header-phone-2 {
+    position: relative;
+    cursor: pointer;
+    transition: .2s;
+}
+.header-phone:hover, .header-phone-2:hover {
+    cursor: pointer;
+    color: var(--color-green);
+}
+.header-icon-txt, .header-icon-txt-map {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+@media screen and (max-width: 1350px) {
+    .header-txt {
+    font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header-icon-txt-map {
+        display: none;
+    }
+}
+@media screen and (max-width: 550px) {
+    .header-phone-2 {
+        display: none;
+    }
+}
+@media screen and (max-width: 350px) {
+    .header-txt {
+    font-size: 10px;
+    }
+}

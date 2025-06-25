@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Literal-Regular';
+    src: local("Literal-Regular"), url("../../fonts/Karton-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Literal-Bold';
+    src: local("Literal-Bold"), url("../../fonts//Literal-Bold.otf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Karton-Regular';
+    src: local("Karton-Regular"), url("../../fonts/Karton-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+:root {
+    --color-browm:  #5B4A58;
+    --color-green:  #6AAE55;
+    --color-white:  #FFFFFF;
+    --color-orange:  #F2994A;
+    --color-grey:  #FAFAFA;
+    --color-grey-txt:  #828282;
+}
+
+hr {
+    position: relative;
+    border: 1px solid #E0E0E0;
+    z-index: 2;
+    width: 99%;
+}
+#searchMenu {
+    display: block;
+}
+
+.product-search {
+    position: relative;
+    background-color: var(--color-white);
+    width: 230px;
+    height: 1080px;
+    border-radius: 10px;
+}
+.product-search-block {
+    position: relative;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.product-search-input {
+    position: relative;
+    width: 205px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--color-grey);
+    border: none;
+    color: var(--color-browm);
+    font-size: 16px;
+    color: var(--color-browm);
+}
+.product-search-input:focus {
+    outline-width: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+.product-search input::placeholder  {
+    color: var(--color-grey-txt);
+    font-family: 16px;
+    padding: 13px 25px;
+    box-sizing: border-box;
+    font-family: 'Literal-Regular';
+}
+.product-search-img {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    z-index: 1;
+    padding: 18px 30px;
+    right: 0;
+}
+.product-search-close {
+    display: none;
+}
+.product-search-block {
+    position: relative;
+    padding: 15px;
+    box-sizing: border-box;
+}
+fieldset{
+   border:0;
+   box-shadow: none;
+}
+.product-search-checkbox-heder {
+    color: var(--color-grey-txt);
+    font-family: 14px;
+    font-family: 'Literal-Bold';
+    padding: 5px;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+.product-search-checkbox-all {
+    text-align: center;
+    color: var(--color-grey-txt);
+    font-family: 14px;
+    padding: 5px;
+    box-sizing: border-box;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.product-search-checkbox-block {
+    padding: 5px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.product-search-checkbox {
+  appearance: none;
+  position: relative;
+  height: 18px;
+  width: 18px;
+  background: var(--color-white);
+  border: 1px solid var(--color-grey-txt);
+  border-radius: 4px;
+  cursor: pointer;
+  right: 10px;
+  top: 3px;
+  z-index: 1000;
+  opacity: 0.8;
+}
+.product-search-checkbox:checked {
+  background: #E9FFE2;
+  border: 1px solid var(--color-green);
+  opacity: 1;
+}
+.product-search-checkbox:checked::before {
+  width: 18px;
+  height: 18px;
+  display:flex;
+  content: '✔️';
+  font-size: 9px;
+  position: absolute;
+  padding: 2px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1350px) {
+    #searchMenu {
+        display: none;
+    }
+    .product-search {
+        position: absolute;
+        width: 750px;
+        z-index: 10;
+    }
+    .product-search-input {
+        width: 80%;
+    }
+    .product-search-close {
+        position: absolute;
+        display: block;
+        opacity: .5;
+        width: 16px;
+        height: 16px;
+        right: 0;
+        padding: 18px 30px;
+        cursor: pointer;
+        z-index: 5;
+    }
+    .product-search-close:hover,
+    .product-search-img:hover {
+        opacity: 1;
+    }
+    .product-search-img {
+        padding: 18px 75px;
+        right: 0;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+        opacity: .5;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .product-search {
+        width: 550px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .product-search {
+        left: 10px;
+        right: 10px;
+        box-sizing: border-box;
+        width: 90%;
+        justify-self: center;
+    }
+    .product-search-input {
+        width: 65%;
+    }
+} 
