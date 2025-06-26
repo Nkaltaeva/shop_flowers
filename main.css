@@ -9,6 +9,7 @@
 @import "./components/day_night/dayNight.css";
 @import "./components/product_main/productMain.css";
 @import "./components/product_main/search.css";
+@import "./components/drop-down-menu/dropDownMenu.css";
 
 /* Стили по страницам */
 @import "./pages/contacts/contacts.css";

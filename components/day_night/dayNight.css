@@ -70,7 +70,8 @@ body:has(input[name="checkbox-switch"]:checked) .background-color-browm-footer {
     background-color: var(--color-browm-background);
     color: var(--color-white);
 }
-body:has(input[name="checkbox-switch"]:checked) .order-step-img  {
+body:has(input[name="checkbox-switch"]:checked) .order-step-img,
+body:has(input[name="checkbox-switch"]:checked) .banner-nav-info-content-link:hover {
     color: var(--color-browm-background);
 }
 body:has(input[name="checkbox-switch"]:checked) .order-step-1,
@@ -80,6 +81,13 @@ body:has(input[name="checkbox-switch"]:checked) .foto-tail-txt {
 
 body:has(input[name="checkbox-switch"]:checked) .banner-carousel-img {
     filter: opacity(15%);
+}
+body:has(input[name="checkbox-switch"]:checked) .banner-nav-info-content,
+body:has(input[name="checkbox-switch"]:checked) .banner-nav-info-client  {
+    color: var(--color-white);
+}
+body:has(input[name="checkbox-switch"]:checked) .banner-nav-info-client:hover  {
+    color: var(--color-green);
 }
 @media screen and (max-width: 350px) {
     .checkbox-day-night {
