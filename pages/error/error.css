@@ -4,11 +4,13 @@
     justify-content: center;
     text-align: center;
     width: 751px;
+    box-sizing: border-box;
+    padding-top: 40px;
 }
 
 .error-img {
     position: relative;
-    background-image: url(/img/pages/error/error.png);
+    background-image: url(../../img/pages/error/error.png);
     width: 751px;
     height: 374px;
     background-size: cover;
