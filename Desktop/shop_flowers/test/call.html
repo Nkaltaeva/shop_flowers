@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="call.css" />
+    <title>Document</title>
+</head>
+<body>
+<form name="contactForm" onsubmit="return validateForm()" method="post">
+    <h2>Форма заявки</h2>
+    <div class="row">
+        <label>Имя</label>
+        <input type="text" name="name">
+        <div class="error" id="nameErr"></div>
+    </div>
+    <div class="row">
+        <label>Номер телефона</label>
+        <input type="text" name="mobile" maxlength="10">
+        <div class="error" id="mobileErr"></div>
+    </div>
+    <div class="row">
+       <textarea name="textarea" placeholder="Сообщение"></textarea>
+    </div>
+        
+    <div class="row">
+        <button type="submit" value="Submit">Submit</button>
+
+    </div>
+</form>
+            <script src="call.js"></script>
+</body>
+
+</html>
