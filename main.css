@@ -14,6 +14,7 @@
 /* Стили по страницам */
 @import "./pages/contacts/contacts.css";
 @import "./pages/catalog/catalog.css";
+@import "./pages/reviews/reviews.css";
 
 
 @font-face {

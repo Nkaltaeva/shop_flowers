@@ -1,0 +1,181 @@
+:root {
+    --color-browm:  #5B4A58;
+    --color-green:  #6AAE55;
+    --color-white:  #FFFFFF;
+    --color-olive:  #F0F0F0;
+    --color-grey-txt:  #828282;
+    --color-grey-background:  #F2F2F2;
+    --background-color-grey: #F9F8FB;
+    --color-pagination: #E0E0E0;
+}
+
+.background-color-grey {
+    background-color: var(--background-color-grey);
+    padding: 0;
+}
+
+.reviews {
+    position: relative;
+    display: flex;
+}
+.reviews-section {
+    position: relative;
+    box-sizing: border-box;
+    padding: 37px 17px;
+    background-color: var(--color-grey-background);
+    width: 263px;
+}
+.reviews-block {
+    position: relative;
+    box-sizing: border-box;
+    padding: 37px 17px;
+}
+
+.reviews-section-button-first,
+.reviews-section-button-last {
+    position: relative;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-white);
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 16px;
+    color: var(--color-browm);
+}
+.reviews-section-button-first:hover,
+.reviews-section-button-last:hover,
+.reviews-section-button-first:active,
+.reviews-section-button-last:active {
+    background-color: #F6FFF3;
+}
+.reviews-section-button-first {
+    border-radius: 10px 10px 0 0;
+}
+.reviews-section-button-last {
+    border-radius: 0 0 10px 10px;
+}
+.reviews-block-user {
+    position: relative;
+    display: grid;
+    grid: repeat(2, 260px) / repeat(2, 350px);
+    gap: 10px 10px;
+}
+.reviews-block-user-info {
+    position: relative;
+    width: 350px;
+    height: 260px;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    box-sizing: border-box;
+    padding: 37px 30px;
+}
+.reviews-block-user-name, .reviews-block-user-more {
+    position: relative;
+    color: var(--color-green);
+    font-size: 16px;
+    font-weight: 800;
+}
+.reviews-block-user-read-more {
+    position: relative;
+    float: right;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    cursor: pointer;
+}
+.reviews-block-user-read-more:hover {
+    opacity: 0.8;
+}
+.reviews-block-user-txt {
+    position: relative;
+    color: var(--color-browm);
+    font-size: 12px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 13px 0;
+}
+.reviews-block-user-arrow {
+    position: relative;
+    width: 20px;
+    height: 12px;
+}
+.reviews-block-user-info-img-1, .reviews-block-user-info-img-2,
+.reviews-block-user-info-img-3, .reviews-block-user-info-img-4,
+.reviews-block-user-info-img-5, .reviews-block-user-info-img-6,
+.reviews-block-user-info-img-7, .reviews-block-user-info-img-8,
+.reviews-block-user-info-img-9 {
+    position: relative;
+    width: 350px;
+    height: 260px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.reviews-block-user-info-img-1 {
+    background-image: url(../../img/pages/reviews/review_1.png);
+}
+.reviews-block-user-info-img-2 {
+    background-image: url(../../img/pages/reviews/review_2.png);
+}
+.reviews-block-user-info-img-3 {
+    background-image: url(../../img/pages/reviews/review_3.png);
+}
+.reviews-block-user-info-img-4 {
+    background-image: url(../../img/pages/reviews/review_4.png);
+}
+.reviews-block-user-info-img-5 {
+    background-image: url(../../img/pages/reviews/review_5.png);
+}
+.reviews-block-user-info-img-6 {
+    background-image: url(../../img/pages/reviews/review_6.png);
+}
+.reviews-block-user-info-img-7 {
+    background-image: url(../../img/pages/reviews/review_7.png);
+}
+.reviews-block-user-info-img-8 {
+    background-image: url(../../img/pages/reviews/review_8.png);
+}
+.reviews-block-user-info-img-9 {
+    background-image: url(../../img/pages/reviews/review_9.png);
+}
+.reviews-block-user-pagination {
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+    box-sizing: border-box;
+    padding: 30px 0;
+}
+.reviews-block-user-pagination-dot {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: var(--color-pagination);
+    background-color: var(--color-grey-background);
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 9px 15px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.reviews-block-user-pagination-dot:hover,
+.reviews-block-user-pagination-dot:active {
+    color: var(--color-green);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-green);
+}
+.reviews-block-create {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 31px 28px;
+    border-radius: 10px;
+}

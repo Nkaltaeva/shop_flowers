@@ -152,6 +152,7 @@
     font-size: 18px;
     width: 200px;
     height: 60px;
+    color: var(--color-browm);
 }
 .product-block-cart-item-txt {
     display: flex;
@@ -164,8 +165,9 @@
 }
 .product-block-cart-item-price {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
     font-family: 'Literal-Bold';
+    color: var(--color-browm);
 }
 .product-block-cart-item-sale {
     position: absolute;

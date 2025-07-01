@@ -66,7 +66,9 @@ body:has(input[name="checkbox-switch"]:checked) .product-block-cart-item,
 body:has(input[name="checkbox-switch"]:checked) .product-search,
 body:has(input[name="checkbox-switch"]:checked) .header-background-color,
 body:has(input[name="checkbox-switch"]:checked) .background-color-olive,
-body:has(input[name="checkbox-switch"]:checked) .background-color-browm-footer {
+body:has(input[name="checkbox-switch"]:checked) .background-color-browm-footer,
+body:has(input[name="checkbox-switch"]:checked) .reviews-section-button-first,
+body:has(input[name="checkbox-switch"]:checked) .reviews-section-button-last  {
     background-color: var(--color-browm-background);
     color: var(--color-white);
 }
@@ -83,11 +85,18 @@ body:has(input[name="checkbox-switch"]:checked) .banner-carousel-img {
     filter: opacity(15%);
 }
 body:has(input[name="checkbox-switch"]:checked) .banner-nav-info-content,
-body:has(input[name="checkbox-switch"]:checked) .banner-nav-info-client  {
+body:has(input[name="checkbox-switch"]:checked) .banner-nav-info-client {
     color: var(--color-white);
 }
 body:has(input[name="checkbox-switch"]:checked) .banner-nav-info-client:hover  {
     color: var(--color-green);
+}
+body:has(input[name="checkbox-switch"]:checked) .reviews-section {
+    background-color: var(--color-browm);
+}
+body:has(input[name="checkbox-switch"]:checked) .reviews-section-button-first:hover,
+body:has(input[name="checkbox-switch"]:checked) .reviews-section-button-last:hover {
+    background-color: var(--color-green);
 }
 @media screen and (max-width: 350px) {
     .checkbox-day-night {

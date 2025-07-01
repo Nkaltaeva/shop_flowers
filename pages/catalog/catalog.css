@@ -68,6 +68,8 @@
     font-size: 16px;
     box-sizing: border-box;
     padding: 8px 0;
+    color: var(--color-browm);
+    font-weight: 800;
 }
 .product-stock-item-sale, .product-stock-item-gift {
     position: absolute;
