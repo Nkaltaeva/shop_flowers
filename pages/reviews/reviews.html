@@ -130,9 +130,36 @@
                             <p class="reviews-block-user-pagination-dot">5</p>
                         </div>
                         <div class="reviews-block-create">
-                            <form  enctype="multipart/form-data" method="post">
-                                <input  type="file" name="photo" multiple accept=".jpg, .png">
-                                <input type="submit" value="Отправить">
+                            <form class="reviews-block-create-form" name="" id="contactFeedback" 
+                                enctype="multipart/form-data" method="post">
+                                <label class="reviews-block-create-form-foto">
+                                    <img class="reviews-block-create-form-img" src="../../img/icon/loading_foto.png" alt="loading_foto">
+                                    <input  type="file" name="photo" multiple accept="image/png, image/jpeg"><br/>
+                                    <span class="">Загрузить изображение</span>
+                                    <div class="input-file-list"></div>
+                                </label>                                
+                                <div class="">
+                                    <div class="reviews-block-create-form-info">
+                                        <div class="reviews-block-create-form-txt">
+                                            <label for="nameFeedback">Имя и фамилия</label>
+                                            <input class="reviews-block-create-form-input" type="text" 
+                                            id="nameFeedback" placeholder="Василий Петров">
+                                            <div class="errorFb" id="nameFbError"></div>
+                                        </div>
+                                        <div class="reviews-block-create-form-txt">
+                                            <label for="emailFeedback">Эл. почта</label>
+                                            <input class="reviews-block-create-form-input" type="text" 
+                                            id="emailFeedback" placeholder="example@mail.com">
+                                            <div class="errorFb" id="emailFbError"></div>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <textarea class="reviews-block-create-form-textarea" name="textarea" id="messageFeedback" required 
+                                        placeholder="Ваш комментарий"></textarea>
+                                    <span class="errorFb" id="messageFbError"></span>
+                                    </div>
+                                    <button class="reviews-block-create-form-btn" type="submit" value="submit">Отправить</button>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -166,67 +193,10 @@
         </div>
         <div class="wrapper background-color-browm-footer">
             <div class="container">
-                <div class="footer-block">
-                    <div class="footer-block-contact">
-                        <h5 class="footer-block-h5"><b>Контактная информация</b></h5>
-                        <div class="footer-block-contact-txt">
-                            <img src="../.././img/icon/place.png" alt="map">
-                            <p>г. Владивосток, ул. Пушкинская, 17</p>
-                        </div>
-                        <div class="footer-block-contact-txt">
-                            <img src="../.././img/icon/phone_w.png" alt="phone">
-                            <p>+ 7 888 888 88 88</p>
-                        </div>
-                        <div class="footer-block-contact-txt">
-                            <img src="../.././img/icon/phone_w.png" alt="phone">
-                            <p>+ 7 888 888 88 88</p>
-                        </div>
-                        <div class="footer-block-contact-txt">
-                            <img src="../.././img/icon/time.png" alt="map">
-                            <p>Режим работы: Пн-Сб с 8:00 до 22:00</p>
-                        </div>
-                    </div>
-                    <div class="footer-block-for-user"> 
-                        <h5 class="footer-block-h5"><b>Для посетителей</b></h5>
-                        <a class="footer-block-for-user-txt" href=""><p>Оформление заказа</p></a>
-                        <a class="footer-block-for-user-txt" href=""><p>Вопросы и ответы</p></a>
-                        <a class="footer-block-for-user-txt" href=""><p>Изменение или отмена заказа</p></a>
-                        <a class="footer-block-for-user-txt" href=""><p>Способы доставки и оплаты</p></a>
-                    </div>
-                    <div class="footer-block-call-back">
-                        <h5 class="footer-block-h5"><b>Возникли вопросы? Свяжитесь с нами</b></h5>
-
-                        <form name="contactForm" id="feedbackForm"  method="post">
-                            <div class="footer-block-call-back-contact">
-                                <div class="footer-block-call-back-name">
-                                    <label class="footer-block-call-back-txt" >Ваше имя</label>
-                                    <input class="footer-block-call-back-input" type="text" id="nameCallBack">
-                                    <div class="error" id="nameError"></div>
-                                </div>
-                                <div class="footer-block-call-back-phone">
-                                    <label class="footer-block-call-back-txt" >Моб. номер</label>
-                                    <input class="footer-block-call-back-input" type="text" id="phoneCallBack">
-                                    <div class="error" id="phoneError"></div>
-                                </div>
-                            </div>
-
-                            <textarea name="textarea" id="messageCallBack" required placeholder="Сообщение"></textarea>
-                            <span class="error" id="messageError"></span>
-                            <button class="footer-block-call-back-btn" type="submit" value="submit">Отправить</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr />
-        <div class="wrapper background-color-browm-footer">
-            <div class="container">
                 <p class="footer-date">&copy; 2019 Цветочная лавка.</p>
             </div>
         </div>
     </footer>
-
-    <script src="../../components/call_back/callBack.js"></script>
     <script src="./reviews.js"></script>
 </body>
 </html>

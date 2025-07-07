@@ -3,13 +3,12 @@
 @import "./css/footer.css";
 @import "./pages/error/error.css";
 
-/* Стили по блокам */
+/* Стили по блокам на главной странице*/
 @import "./components/call_back/callBack.css";
 @import "./components/carousel/carousel.css";
 @import "./components/day_night/dayNight.css";
 @import "./components/product_main/productMain.css";
 @import "./components/product_main/search.css";
-@import "./components/drop-down-menu/dropDownMenu.css";
 
 /* Стили по страницам */
 @import "./pages/contacts/contacts.css";
