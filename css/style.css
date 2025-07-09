@@ -361,6 +361,8 @@ li {
     position: relative;
     display: flex;
     gap: 57px;
+    box-sizing: border-box;
+    padding: 70px 0;
 }
 .foto-tail-title, .review-title{
     position: relative;
@@ -469,8 +471,10 @@ li {
     gap: 10px;
     font-size: 14px;
     box-sizing: border-box;
-    padding-bottom: 36px;
+    padding: 20px 0;
+    padding-bottom: 30px;
 }
+
 .pages-menu a:hover{
     color: var(--color-green);
 }
