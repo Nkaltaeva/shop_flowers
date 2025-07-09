@@ -48,8 +48,7 @@
 }
 .reviews-section-button-first:hover,
 .reviews-section-button-last:hover,
-.reviews-section-button-first:active,
-.reviews-section-button-last:active {
+.reviews-active {
     background-color: #F6FFF3;
 }
 .reviews-section-button-first {
@@ -167,10 +166,17 @@
     font-weight: 800;
 }
 .reviews-block-user-pagination-dot:hover,
-.reviews-block-user-pagination-dot:active {
+.reviews-block-user-pagination-dot.active {
     color: var(--color-green);
     background-color: var(--color-white);
     border: 2px solid var(--color-green);
+}
+.hidden {
+  display: none;
+}
+#reviews-block-user-pagination-dot {
+    display: flex;
+    gap: 20px;
 }
 .reviews-block-create {
     position: relative;
@@ -272,6 +278,80 @@ input[placeholder], [placeholder], *[placeholder]  {
     width: 43px;
     height: 43px;
 }
+.errorMR, .errorMRemail {
+    position: absolute;
+    color: rgb(255, 153, 0);
+    font-size: 10px;
+    top: 18px;
+}
+.errorMrImg {
+    position: absolute;
+    color: rgb(255, 153, 0);
+    font-size: 10px;
+    width: 100%;
+    left: 0;
+}
+.reviews-modal {
+    display: none;
+    position: absolute;
+    background-color: #5b4a58a9;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    padding-top: 10%;
+}
+.reviews-modal-user {
+    position: relative;
+    background-color: var(--color-white);
+    box-sizing: border-box;
+    padding: 20px;
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+.reviews-modal-close {
+    position: absolute;
+    padding: 0 20px;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 101;
+}
+.reviews-modal-close:hover {
+    opacity: 0.5;
+}
+.reviews-modal-user-name {
+    position: relative;
+    color: var(--color-green);
+    font-size: 18px;
+    font-weight: 800;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+.reviews-modal-user-img {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../img/pages/reviews/review_1.png);
+}
+.reviews-modal-user-txt {
+    position: relative;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    line-height: 18px;
+}
+
+
 @media screen and (max-width: 1350px) {
     .reviews-section {
         width: 250px;
@@ -360,12 +440,12 @@ input[placeholder], [placeholder], *[placeholder]  {
     .reviews-block-user-pagination-dot {
         width: 25px;    
         height: 25px;
-        padding: 5px 10px;
+        padding: 2px 8px;
         font-size:10px;
     }
     .reviews-block-create {
         width: 300px;
-        height: 610px;
+        height: 630px;
     }
     .reviews-block-create-form-info {
         display: inline;
@@ -380,6 +460,12 @@ input[placeholder], [placeholder], *[placeholder]  {
     .reviews-block-create-form-btn {
         width: 100%;
     }
+    .errorMR, .errorMRemail {
+    position: relative;
+    color: rgb(255, 153, 0);
+    font-size: 10px;
+
+}
 }
 @media screen and (max-width: 550px) {
     .reviews {
@@ -420,10 +506,16 @@ input[placeholder], [placeholder], *[placeholder]  {
     .reviews-block-create {
         width: 100%;
     }
+    .errorMR {
+        font-size: 8px;
+    }
 }
 @media screen and (max-width: 350px) {
     .reviews-block-create {
         padding: 31px 10px
+    }
+    .reviews-block-create-form-foto {
+        padding: 55px 20px;
     }
 }
 
