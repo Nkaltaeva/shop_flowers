@@ -70,7 +70,8 @@ body:has(input[name="checkbox-switch"]:checked) .background-color-browm-footer,
 body:has(input[name="checkbox-switch"]:checked) .reviews-section-button-first,
 body:has(input[name="checkbox-switch"]:checked) .reviews-section-button-last,
 body:has(input[name="checkbox-switch"]:checked) .reviews-block-user-info,
-body:has(input[name="checkbox-switch"]:checked) .reviews-block-user-info {
+body:has(input[name="checkbox-switch"]:checked) .reviews-block-user-info,
+body:has(input[name="checkbox-switch"]:checked) .reviews-modal-user{
     background-color: var(--color-browm-background);
     color: var(--color-white);
 }
