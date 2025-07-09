@@ -14,8 +14,9 @@
 @import "./pages/contacts/contacts.css";
 @import "./pages/catalog/catalog.css";
 @import "./pages/reviews/reviews.css";
+@import "./pages/popular_questions/popular_questions.css";
 
-
+/* Шрифты */
 @font-face {
     font-family: 'Literal-Regular';
     src: local("Literal-Regular"), url("./fonts/Literal-Regular.otf") format("truetype");
@@ -26,7 +27,6 @@
     src: local("Literal-Bold"), url("./fonts//Literal-Bold.otf") format("truetype");
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Karton-Regular';
     src: local("Karton-Regular"), url("./fonts/Karton-Regular.ttf") format("truetype");
