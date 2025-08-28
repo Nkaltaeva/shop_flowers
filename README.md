@@ -11,10 +11,10 @@ JS сделала карусель баннера на главной стран
 
 HTML, CSS, JS.
 
-![[JPEG file]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/flowers.jpg)](https://github.com/Nkaltaeva/shop_flowers/blob/main/img/flowers.jpg)
+![[JPEG file]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/flowers.jpg)]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/flowers.jpg])
 ![[JPEG file]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/catalog.JPG)]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/catalog.JPG])
-![[JPEG file]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/product-card.JPG)](https://github.com/Nkaltaeva/shop_flowers/blob/main/img/product-card.JPG)
+![[JPEG file]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/product-card.JPG)]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/product-card.JPG])
 ![[JPEG file]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/reviews.JPG)]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/reviews.JPG])
-![[JPEG file]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/reviews-txt.JPG)](https://github.com/Nkaltaeva/shop_flowers/blob/main/img/reviews-txt.JPG)
+![[JPEG file]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/reviews-txt.JPG)]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/reviews-txt.JPG])
 ![[JPEG file]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/404.JPG)]([https://github.com/Nkaltaeva/shop_flowers/blob/main/img/404.JPG])
 
