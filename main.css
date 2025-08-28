@@ -15,6 +15,7 @@
 @import "./pages/catalog/catalog.css";
 @import "./pages/reviews/reviews.css";
 @import "./pages/popular_questions/popular_questions.css";
+@import "./pages/product_card/product_card.css";
 
 /* Шрифты */
 @font-face {

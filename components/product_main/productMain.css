@@ -27,6 +27,8 @@
     position: relative;
     display: flex;
     gap: 15px;
+    box-sizing: border-box;
+    padding-top: 20px;
 }
 .background-color-grey {
     background-color: var(--color-grey);
@@ -201,6 +203,7 @@
         width: 100%;
         gap: 25px;
         font-size: 12px;
+
     }
     .product-block-title {
         width: 110px;
@@ -304,6 +307,7 @@
     }
     .product-block-sort {
         justify-content: space-between;
+        
     }
     .product-block-cart-item {
         margin-bottom: 20px;

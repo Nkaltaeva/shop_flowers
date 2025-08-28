@@ -39,6 +39,12 @@
     font-size: 16px;
     font-weight: 400;
 }
+.footer-nav-ul li:hover {
+color: var(--color-green);
+}
+.footer-nav-info-content {
+    color: var(--color-white);
+}
 .footer-nav-ul-li-info {
     position: relative;
     display: flex;
@@ -53,7 +59,8 @@
     color: var(--color-green);
 }
 .footer-nav-info-content-link:hover {
-    color: var(--color-browm);
+    color: var(--color-green);
+    text-shadow: 0 0 5px  #1c171b;
 }
 .footer-nav-ul-li-info {
     position: relative;
