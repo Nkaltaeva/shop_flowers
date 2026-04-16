@@ -368,6 +368,7 @@ li {
     position: relative;
     justify-content: space-between;
     display: flex;
+    padding-bottom: 20px;
 }
 .foto-tail-txt, .review-txt {
     position: relative;
